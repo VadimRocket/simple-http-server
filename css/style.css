@@ -1,0 +1,10 @@
+.hello {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6b0f1a;
+    padding: 40px;
+    font-size: 40px;
+    background: #f3f3f3;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "jscourse-lec-1",
+  "version": "1.0.0",
+  "description": "How to raise node server and deploy your app to heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Martin",
+  "license": "ISC"
+}
