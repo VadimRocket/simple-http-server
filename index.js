@@ -19,7 +19,12 @@ const server = http.createServer((request, response) => {
     } else if (request.url == '/css/style.css') {
         const content = fs.readFileSync('css/style.css', 'utf-8');
         response.end(content);
+    
+    } else if (request.url == '/js/canvas.js') {
+        const content = fs.readFileSync('js/canvas.js', 'utf-8');
+        response.end(content);
     }
+
 
 });
 
