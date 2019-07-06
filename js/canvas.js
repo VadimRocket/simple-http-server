@@ -6,7 +6,6 @@ canvas.width =  window.innerWidth;
 canvas.height = window.innerHeight;
 const c = canvas.getContext('2d');
 
-
 function Circle(x, y, dx, dy, radius) {
     this.x = x;
     this.y = y;
@@ -52,7 +51,6 @@ for (let index = 0; index < 89; index++) {
     circleArr.push(new Circle(x, y, dx, dy, radius)); 
 }
 
-
 function animate() {
 
     requestAnimationFrame(animate);
@@ -64,5 +62,4 @@ function animate() {
         
     }
 };
-
 animate();
