@@ -7,13 +7,10 @@ canvas.height = window.innerHeight;
 const c = canvas.getContext('2d');
 
 
-
 window.addEventListener('resize', function() {
     canvas.width =  window.innerWidth;
     canvas.height = window.innerHeight;
 });
-
-
 
 function Circle(x, y, dx, dy, radius) {
     this.x = x;
@@ -60,7 +57,6 @@ for (let index = 0; index < 89; index++) {
     circleArr.push(new Circle(x, y, dx, dy, radius)); 
 }
 
-
 function animate() {
 
     requestAnimationFrame(animate);
@@ -72,6 +68,5 @@ function animate() {
         
     }
 };
-
 animate();
 
