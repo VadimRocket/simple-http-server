@@ -7,6 +7,14 @@ canvas.height = window.innerHeight;
 const c = canvas.getContext('2d');
 
 
+
+window.addEventListener('resize', function() {
+    canvas.width =  window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+
+
+
 function Circle(x, y, dx, dy, radius) {
     this.x = x;
     this.y = y;
@@ -66,3 +74,4 @@ function animate() {
 };
 
 animate();
+
